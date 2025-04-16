@@ -5,7 +5,7 @@
 
 
 <script>
-import AboutUs from '../components/AboutUs.vue';
+import AboutUs from '../contents/AboutUs.vue';
 
 export default {
   components: { AboutUs },

@@ -1,12 +1,11 @@
 <template>
-  <div class="bg-sky-100 h=20">
+  <div class="sticky top-0 z-50 bg-white shadow bg-sky-100 h=20">
     <header class="relative inset-x-0 -top-80 -z-1 inset-x-0 top-0 z-50">
       <nav class="flex items-center justify-between p-4 lg:px-8" aria-label="Global">
         <div class="flex lg:flex-1 items-center">
           <a href="/" class="-m-1.5 p-1.5 flex items-center">
             <span class="sr-only">03Zone<sup>™</sup></span>
-            <img class="h-8 w-auto" src="../assets/O3zone.png" alt="" />
-            <sup class="text-blue-500 text-sm ml-1">™</sup>
+            <img class="h-18 w-auto" src="../assets/bh_sm_tp.png" alt="" />
           </a>
         </div>
         <div class="flex lg:hidden">

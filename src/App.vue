@@ -5,9 +5,13 @@ import myfooter from '/src/global/myfooter.vue';
 </script>
 
 <template>
-   <div class="w-full mx-px center">
+    <div class="flex flex-col min-h-screen w-full mx-px center">
     <myheader />
-    <router-view />
+    <main class="flex-grow bg-sky-100">
+      
+     <router-view /> 
+    </main>
+    
     <myfooter />
   </div>
 </template>
