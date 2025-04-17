@@ -1,5 +1,5 @@
 <template>
-  <div class="sticky top-0 z-50 bg-white shadow bg-sky-100 h=20">
+  <div class="sticky top-0 z-50 bg-white shadow-2xl bg-sky-100 h=20">
     <header class="relative inset-x-0 -top-80 -z-1 inset-x-0 top-0 z-50">
       <nav class="flex items-center justify-between p-4 lg:px-8" aria-label="Global">
         <div class="flex lg:flex-1 items-center">

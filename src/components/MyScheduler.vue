@@ -1,73 +1,82 @@
 <template>
-    <div class="bg-gray-900 text-gray-200 min-h-screen">
+    <div class="relative isolate">
       <!-- Hero Section -->
       <section class="text-center py-16 px-6">
-        <h1 class="text-4xl font-bold text-white">Book your Service</h1>
-        <p class="mt-4 text-lg max-w-3xl mx-auto">
+        <h1 class="text-4xl text-sky-800 font-bold">Book your Service</h1>
+        <p class="mt-4 text-lg text-sky-800 max-w-3xl mx-auto">
           Let O3Zone take you toward better health. Book one of our services today and start experiencing the benefits of PEMF and Ozone therapy.
         </p>
       </section>
   
       <!-- Booking Options -->
       <section class="px-6 py-6 max-w-5xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div class="bg-gray-800 p-6 rounded-lg shadow-lg text-center">
-          <h2 class="text-xl font-semibold">Initial Consultation</h2>
-          <p class="text-gray-400 mt-2">Detox and rejuvenate with a powerful ozone sauna session.</p>
-          <a href="https://www.picktime.com/aa698a2e-9c81-42f6-a5fc-fcf18e55b991" class="ptbkbtn mt-4 inline-block text-white py-2 px-6 rounded-lg text-lg font-semibold transition" target="_blank" style="float:none;"><img border="none" src="https://www.picktime.com/img/widgetButtons/BookingPage/picktime-book-online-blue.png" alt="Book an appointment with O3Zone"/></a>
-	
-        </div>
-  
-        <div class="bg-gray-800 p-6 rounded-lg shadow-lg text-center">
-          <h2 class="text-xl font-semibold">Weekly Service</h2>
-          <p class="text-gray-400 mt-2">Recharge your body with Pulsed Electromagnetic Field therapy.</p>
-          <!-- <a href="#" class="mt-4 inline-block bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded-lg text-lg font-semibold transition">
-            Book Now
-          </a> -->
-          <a href="https://www.picktime.com/aa698a2e-9c81-42f6-a5fc-fcf18e55b991" class="ptbkbtn mt-4 inline-block text-white py-2 px-6 rounded-lg text-lg font-semibold transition" target="_blank" style="float:none;"><img border="none" src="https://www.picktime.com/img/widgetButtons/BookingPage/picktime-book-online-blue.png" alt="Book an appointment with O3Zone"/></a>
-        </div>
-  
-        <div class="bg-gray-800 p-6 rounded-lg shadow-lg text-center">
-          <h2 class="text-xl font-semibold">One-time Cleaning</h2>
-          <p class="text-gray-400 mt-2">A targeted approach for sinus and respiratory support.</p>
-          <a href="https://www.picktime.com/aa698a2e-9c81-42f6-a5fc-fcf18e55b991" class="ptbkbtn mt-4 inline-block text-white py-2 px-6 rounded-lg text-lg font-semibold transition" target="_blank" style="float:none;"><img border="none" src="https://www.picktime.com/img/widgetButtons/BookingPage/picktime-book-online-blue.png" alt="Book an appointment with O3Zone"/></a>
+        <div v-for="(option, index) in bookingOptions" :key="index" class="bg-white p-6 rounded-lg shadow-lg text-center transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+
+          <h2 class="text-xl font-semibold">{{ option.title }}</h2>
+          <p class="text-gray-400 mt-2">{{ option.description }}</p>
+            <a :href="option.link" class="ptbkbtn mt-4 inline-block text-white py-2 px-6 rounded-lg text-lg font-semibold transition"  target="_blank" style="float:none;" >
+              <img src="https://www.picktime.com/img/widgetButtons/BookingPage/picktime-book-online-blue.png" alt="Book an appointment with blueharbor" />
+            </a>
         </div>
       </section>
-  
+ 
      
   
       <!-- FAQs or Testimonials -->
       <section class="px-6 py-12 max-w-4xl mx-auto">
         <h2 class="text-3xl font-semibold text-center mb-8">Common Questions</h2>
         <div class="space-y-6">
-          <div class="bg-gray-800 p-4 rounded-lg">
-            <h3 class="text-lg font-semibold">How long does a session last?</h3>
-            <p class="text-gray-400 mt-1">Most ozone therapy sessions last between 30-60 minutes, depending on the service.</p>
+          <div v-for="(faq, index) in faqItems" :key="index" class="bg-white p-4 rounded-lg shadow transition-transform duration-300 hover:scale-[1.02] hover:shadow-md">
+          <h3 class="text-lg font-semibold">{{ faq.question }}</h3>
+          <p class="text-gray-400 mt-1">{{ faq.answer }}</p>
           </div>
-          
-          <div class="bg-gray-800 p-4 rounded-lg">
-            <h3 class="text-lg font-semibold">Is ozone therapy safe?</h3>
-            <p class="text-gray-400 mt-1">Yes! Ozone therapy is a well-researched, non-invasive treatment used worldwide for various health benefits.</p>
-          </div>
-
-          <div class="bg-gray-800 p-4 rounded-lg">
-            <h3 class="text-lg font-semibold">Types of Pools We Service</h3>
-            <p class="text-gray-400">We service saltwater and chlorine pools, in-ground and above-ground, vinyl, fiberglass, and gunite. Not sure what type you have? Don’t worry—we’ll help you figure it out.</p>
-          </div>  
-
-          <div class="bg-gray-800 p-4 rounded-lg">
-            <h2 class="text-lg font-semibold ">What’s Included</h2>
-          <p class="text-gray-400">All packages include water testing, debris removal, brushing, vacuuming, filter check, and a service report with photos. Optional add-ons are available for advanced chemical balancing and automation monitoring.</p>
-        </div> 
         </div>
       </section>
-
-      
+       
     </div>
   </template>
   
   <script setup>
   !function(e,t,n,s,i,c){i=t.createElement(n),c=t.getElementsByTagName(n)[0],i.async=1,
 	i.src=s,c.parentNode.insertBefore(i,c)}(window,document,"script","https://www.picktime.com/assets/booking.js");
+  
+  const bookingOptions = [
+  {
+    title: 'Initial Consultation',
+    description: 'Detox and rejuvenate with a powerful ozone sauna session.',
+    link: 'https://www.picktime.com/aa698a2e-9c81-42f6-a5fc-fcf18e55b991',
+  },
+  {
+    title: 'Weekly Service',
+    description: 'Recharge your body with Pulsed Electromagnetic Field therapy.',
+    link: 'https://www.picktime.com/aa698a2e-9c81-42f6-a5fc-fcf18e55b991',
+  },
+  {
+    title: 'One-time Cleaning',
+    description: 'A targeted approach for sinus and respiratory support.',
+    link: 'https://www.picktime.com/aa698a2e-9c81-42f6-a5fc-fcf18e55b991',
+  },
+]
+
+const faqItems = [
+  {
+    question: 'How long does a session last?',
+    answer: 'Most ozone therapy sessions last between 30–60 minutes, depending on the service.',
+  },
+  {
+    question: 'Is ozone therapy safe?',
+    answer: 'Yes! Ozone therapy is a well-researched, non-invasive treatment used worldwide for various health benefits.',
+  },
+  {
+    question: 'Types of Pools We Service',
+    answer: 'We service saltwater and chlorine pools, in-ground and above-ground, vinyl, fiberglass, and gunite. Not sure what type you have? Don’t worry—we’ll help you figure it out.',
+  },
+  {
+    question: 'What’s Included',
+    answer: 'All packages include water testing, debris removal, brushing, vacuuming, filter check, and a service report with photos. Optional add-ons are available for advanced chemical balancing and automation monitoring.',
+  },
+]
+
   </script>
   
   <style scoped>

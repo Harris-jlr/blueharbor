@@ -1,12 +1,19 @@
 <template>
-  <div class="bg-sky-100 py-30">
+ 
     <div class="relative isolate">
-
-      <!--Hero banner-->
-      <div class="sm:py-32 md:py-4 lg:pb-20">
+      
+      <!--top page image-->
+      <img src="/src/assets/texture.png" alt="Pool surface detail" class="w-full h-[100px] lg:h-[300px] object-cover">
+      
+      
+      
+      <section>
+        <!--Hero banner-->
+        <div class="sm:py-6 md:py-16 lg:pb-20">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
           <div class="mx-auto max-w-5xl text-center">
             
+            <!-- <img src="/src/assets/oasis.webp" alt="Backyard pool with lounge chairs" class="mx-auto mb-6 rounded-lg shadow-md w-full max-w-4xl object-cover"/> -->
             <h1 class="text-balance text-5xl font-semibold tracking-tight text-blue-500 sm:text-7xl">Welcome to Blueharbor</h1>
             <p class="mt-8 text-pretty text-lg font-medium text-gray-900 sm:text-xl/8">
               Blueharbor is a locally-owned, community-first pool care company that believes in honesty, clear pricing, and doing things the right way. 
@@ -19,11 +26,11 @@
           </div>
           
         </div>
-      </div>
+        </div>
+      </section>
       
-    </div>
-    <!-- Services Cards -->
-    <section class="max-w-6xl mx-auto mt-20 px-12 grid grid-cols-1 md:grid-cols-2 gap-10">
+      <!-- Services Cards -->
+      <section class="max-w-6xl mx-auto mt-6 px-20 grid grid-cols-1 md:grid-cols-2 gap-10">
       <div
         v-for="(card, index) in cards"
         :key="index"
@@ -46,7 +53,6 @@
         </div>
       </div>
     </section>
-    
   </div>
 </template>
 
