@@ -3,7 +3,7 @@
     <div class="relative isolate">
       
       <!--top page image-->
-      <img src="/src/assets/texture.png" alt="Pool surface detail" class="w-full h-[100px] lg:h-[300px] object-cover">
+      <img src="/assets/texture.png" alt="Pool surface detail" class="w-full h-[100px] lg:h-[300px] object-cover">
       
       
       
@@ -73,7 +73,7 @@ const cards = ref([
     cta: 'Book Now',
     link: '/About',
     bg: 'bg-white',
-    img: './assets/poolview.webp', // replace with your asset path
+    img: '/assets/poolview.webp', // replace with your asset path
   },
   {
     title: 'Pay Your Bill Online',
@@ -82,7 +82,7 @@ const cards = ref([
     cta: 'Pay Now',
     link: '/Schedule',
     bg: 'bg-blue-50',
-    img: './assets/781370.webp', // replace with your asset path
+    img: '/assets/781370.webp', // replace with your asset path
   },
 ])
 </script>
