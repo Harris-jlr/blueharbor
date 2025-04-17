@@ -4,7 +4,7 @@
       <nav class="flex items-center justify-between p-4 lg:px-8" aria-label="Global">
         <div class="flex lg:flex-1 items-center">
           <a href="/" class="-m-1.5 p-1.5 flex items-center">
-            <span class="sr-only">BlueHarbor<sup>™</sup></span>
+            <span class="sr-only">Blue Harbor<sup>™</sup></span>
             <img class="h-18 w-auto" src="../assets/blueharbor_logo.png" alt="" />
           </a>
         </div>
@@ -26,7 +26,7 @@
         <DialogPanel class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-gray-900 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-white/10">
           <div class="flex items-center justify-between">
             <a href="#" class="-m-1.5 p-1.5">
-              <span class="sr-only">Blueharbor</span>
+              <span class="sr-only">Blue Harbor</span>
               <img class="h-8 w-auto" src="https://tailwindui.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500" alt="" />
             </a>
             <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-400" @click="mobileMenuOpen = false">

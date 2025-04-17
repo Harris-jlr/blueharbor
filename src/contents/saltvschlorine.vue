@@ -81,7 +81,7 @@
         <!-- CTA -->
         <div class="text-center mt-10">
           <p class="text-lg font-medium text-gray-700">Need help deciding?</p>
-          <p class="text-gray-600 mb-4">We’ve got you. Blueharbor offers consultation, setup, and expert advice to help you dive into the right system for your pool.</p>
+          <p class="text-gray-600 mb-4">We’ve got you. Blue Harbor offers consultation, setup, and expert advice to help you dive into the right system for your pool.</p>
           <router-link to="/contact" class="inline-block bg-blue-500 hover:bg-blue-400 text-white font-semibold px-6 py-3 rounded-full transition">
             Get Expert Advice
           </router-link>

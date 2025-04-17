@@ -9,7 +9,7 @@
             <h2 class="text-2xl font-semibold text-gray-900 mb-8">What Our Customers Say</h2>
             <div class="grid gap-6 md:grid-cols-2">
               <div class="bg-gray-700 p-6 rounded shadow">
-                <p class="text-gray-100 italic">“Blueharbor made pool care effortless for us. Their team is always on time and our pool has never looked better.”</p>
+                <p class="text-gray-100 italic">“Blue Harbor made pool care effortless for us. Their team is always on time and our pool has never looked better.”</p>
                 <p class="mt-2 font-semibold text-gray-300">— Rachel T., Spring TX</p>
               </div>
               <div class="bg-gray-700 p-6 rounded shadow">

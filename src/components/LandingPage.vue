@@ -14,9 +14,9 @@
           <div class="mx-auto max-w-5xl text-center">
             
             <!-- <img src="/src/assets/oasis.webp" alt="Backyard pool with lounge chairs" class="mx-auto mb-6 rounded-lg shadow-md w-full max-w-4xl object-cover"/> -->
-            <h1 class="text-balance text-5xl font-semibold tracking-tight text-blue-500 sm:text-7xl">Welcome to Blueharbor</h1>
+            <h1 class="text-balance text-5xl font-semibold tracking-tight text-blue-500 sm:text-7xl">Welcome to Blue Harbor</h1>
             <p class="mt-8 text-pretty text-lg font-medium text-gray-900 sm:text-xl/8">
-             Blueharbor is a locally owned pool care company focused on honest service and clear pricing. 
+             Blue Harbor is a locally owned pool care company focused on honest service and clear pricing. 
              We’re committed to doing right by our clients and our community. 
              Our technicians bring a careful, respectful approach to every visit. 
              We deliver reliable care for all types of pools in both homes and businesses.  

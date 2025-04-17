@@ -15,7 +15,7 @@
           <h2 class="text-xl font-semibold">{{ option.title }}</h2>
           <p class="text-gray-400 mt-2">{{ option.description }}</p>
             <a :href="option.link" class="ptbkbtn mt-4 inline-block text-white py-2 px-6 rounded-lg text-lg font-semibold transition"  target="_blank" style="float:none;" >
-              <img src="https://www.picktime.com/img/widgetButtons/BookingPage/picktime-book-online-blue.png" alt="Book an appointment with blueharbor" />
+              <img src="https://www.picktime.com/img/widgetButtons/BookingPage/picktime-book-online-blue.png" alt="Book an appointment with Blue Harbor" />
             </a>
         </div>
       </section>
