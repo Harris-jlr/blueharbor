@@ -16,9 +16,11 @@
             <!-- <img src="/src/assets/oasis.webp" alt="Backyard pool with lounge chairs" class="mx-auto mb-6 rounded-lg shadow-md w-full max-w-4xl object-cover"/> -->
             <h1 class="text-balance text-5xl font-semibold tracking-tight text-blue-500 sm:text-7xl">Welcome to Blueharbor</h1>
             <p class="mt-8 text-pretty text-lg font-medium text-gray-900 sm:text-xl/8">
-              Blueharbor is a locally-owned, community-first pool care company that believes in honesty, clear pricing, and doing things the right way. 
-              Our technicians are trained, courteous, and passionate about pool safety and cleanliness.
-              We provide expert pool cleaning and maintenance for residential and commercial clients. Whether it’s saltwater, chlorine, above-ground, or in-ground—we’ve got it covered.</p>
+             Blueharbor is a locally owned pool care company focused on honest service and clear pricing. 
+             We’re committed to doing right by our clients and our community. 
+             Our technicians bring a careful, respectful approach to every visit. 
+             We deliver reliable care for all types of pools in both homes and businesses.  
+            </p>
               <div class="mt-10 flex items-center justify-center gap-x-6">
               <a href="/schedule" class="rounded-full bg-sky-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400">Get started</a>
               <a href="/company" class="text-sm/6 font-semibold text-sky-600">Learn more <span aria-hidden="true">→</span></a>
@@ -30,7 +32,7 @@
       </section>
       
       <!-- Services Cards -->
-      <section class="max-w-6xl mx-auto mt-6 px-20 grid grid-cols-1 md:grid-cols-2 gap-10">
+      <section class="max-w-6xl mx-auto my-6 px-20 grid grid-cols-1 md:grid-cols-2 gap-10">
       <div
         v-for="(card, index) in cards"
         :key="index"

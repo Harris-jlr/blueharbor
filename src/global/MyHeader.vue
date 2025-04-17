@@ -4,8 +4,8 @@
       <nav class="flex items-center justify-between p-4 lg:px-8" aria-label="Global">
         <div class="flex lg:flex-1 items-center">
           <a href="/" class="-m-1.5 p-1.5 flex items-center">
-            <span class="sr-only">03Zone<sup>™</sup></span>
-            <img class="h-18 w-auto" src="../assets/bh_sm_tp.png" alt="" />
+            <span class="sr-only">BlueHarbor<sup>™</sup></span>
+            <img class="h-18 w-auto" src="../assets/blueharbor_logo.png" alt="" />
           </a>
         </div>
         <div class="flex lg:hidden">
