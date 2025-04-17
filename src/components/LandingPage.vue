@@ -3,7 +3,7 @@
     <div class="relative isolate">
       
       <!--top page image-->
-      <img src="/assets/texture.png" alt="Pool surface detail" class="w-full h-[100px] lg:h-[300px] object-cover">
+      <img :src="texture" alt="Pool surface detail" class="w-full h-[100px] lg:h-[300px] object-cover">
       
       
       
@@ -62,6 +62,9 @@
 import { ref } from 'vue'
 import { Dialog, DialogPanel } from '@headlessui/vue'
 import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
+import texture from '../assets/texture.png'
+import poolview from '../assets/poolview.webp'
+import poolblue from '../assets/781370.webp'
 
 const mobileMenuOpen = ref(false)
 
@@ -73,7 +76,7 @@ const cards = ref([
     cta: 'Book Now',
     link: '/About',
     bg: 'bg-white',
-    img: '/assets/poolview.webp', // replace with your asset path
+    img: poolview, // replace with your asset path
   },
   {
     title: 'Pay Your Bill Online',
@@ -82,7 +85,7 @@ const cards = ref([
     cta: 'Pay Now',
     link: '/Schedule',
     bg: 'bg-blue-50',
-    img: '/assets/781370.webp', // replace with your asset path
+    img: poolblue, // replace with your asset path
   },
 ])
 </script>
