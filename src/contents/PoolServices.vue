@@ -50,7 +50,6 @@
 <script setup>
 import { ref } from 'vue'
 import sample from '../assets/services/oasis.webp'
-import service1 from '../assets/services/Service1.png'
 
 const cards = ref([ 
   {
@@ -68,7 +67,7 @@ const cards = ref([
     cta: 'Pay Now',
     link: '/Schedule',
     bg: 'bg-blue-50',
-    img: './src/assets/781370.webp',
+    img: sample,
   },
 {
     title: 'Filter Maintenance',
@@ -76,7 +75,7 @@ const cards = ref([
     cta: 'Pay Now',
     link: '/Schedule',
     bg: 'bg-blue-50',
-    img: './src/assets/781370.webp',
+    img: sample,
 },
 {
     title: 'Salt & Chlorine Balancing',
@@ -84,7 +83,7 @@ const cards = ref([
     cta: 'Pay Now',
     link: '/Schedule',
     bg: 'bg-blue-50',
-    img: './src/assets/781370.webp',
+    img: sample,
 },
 {
     title: 'Green Pool Recovery',
@@ -92,7 +91,7 @@ const cards = ref([
     cta: 'Pay Now',
     link: '/Schedule',
     bg: 'bg-blue-50',
-    img: './src/assets/781370.webp',
+    img: sample,
   },
     {
     title: 'Seasonal Startup & Closing',
@@ -100,7 +99,7 @@ const cards = ref([
     cta: 'Pay Now',
     link: '/Schedule',
     bg: 'bg-blue-50',
-    img: './src/assets/781370.webp',
+    img: sample,
   },
 ])
 </script>
