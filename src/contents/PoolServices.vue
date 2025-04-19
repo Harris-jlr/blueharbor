@@ -49,9 +49,10 @@
 
 <script setup>
 import { ref } from 'vue'
+import sample from '../assets/services/oasis.webp'
+import service1 from '../assets/services/Service1.png'
 
-const cards = ref([
-  
+const cards = ref([ 
   {
     title: 'Pay Your Bill Online',
     description:
@@ -59,7 +60,7 @@ const cards = ref([
     cta: 'Pay Now',
     link: '/Schedule',
     bg: 'bg-blue-50',
-    img: './src/assets/781370.webp', // replace with your asset path
+    img: sample, // replace with your asset path
   },
   {
     title: 'Weekly & Bi-Weekly Cleaning',
