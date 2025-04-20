@@ -1,0 +1,79 @@
+X-Originating-IP: [74.208.4.194]
+Received: from mout.perfora.net (mout.perfora.net [74.208.4.194])
+	by alph756.prodigy.net (Inbound 8.15.2/8.15.2) with ESMTPS id 53JN4TPM097988
+	(version=TLSv1.2 cipher=AES256-GCM-SHA384 bits=256 verify=NO)
+	for <jreustle@att.net>; Sat, 19 Apr 2025 19:04:30 -0400
+UI-Loop: V01:DYxyDrZogRU=:3qquARFHY5VhG6PXBcVo3NcPBPaauTIQhkN1paP23Lc=
+Received: from sam.gov ([34.233.184.14]) by mx.perfora.net (mxeueus011
+ [74.208.5.3]) with ESMTPS (Nemesis) id 1MKcPQ-1uP2XI2TKG-00QbXe; Sun, 20 Apr
+ 2025 01:04:29 +0200
+Received: from 929ec9a30525 (unknown [10.177.48.147])
+	by sam.gov (Postfix) with ESMTP id 1CBAD182BD87
+	for <jharris@bluelinedesign.org>; Sat, 19 Apr 2025 19:04:28 -0400 (EDT)
+Date: Sat, 19 Apr 2025 19:04:28 -0400
+From: <donotreply@sam.gov>
+To: <jharris@bluelinedesign.org>
+Message-ID: <8119474.280004.1745103868117@929ec9a30525>
+Subject: SAM.gov | Work in Progress Registration Started
+Content-Type: multipart/mixed;
+	boundary="----=_Part_280002_763076313.1745103868110"
+X-Spam-Flag: NO
+UI-OutboundReport: notjunk:1;M01:P0:yuc1BG4Ye4k=;I0rw0KLM7t0U6D5Nw4F74+LKHDJ
+ 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
+ AUySqYHIT+E005+skNR8S0hd
+MIME-Version: 1.0
+
+------=_Part_280002_763076313.1745103868110
+Content-Type: multipart/related;
+	boundary="----=_Part_280003_1905269343.1745103868110"
+
+------=_Part_280003_1905269343.1745103868110
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><div><p>Judy Harris, </p>
+    <p> Judy Harris (jharris@bluelinedesign.org)  started a Work in Progress Registration for BLUELINE DESIGN, LLC/GXUVGWVD9BR3 in SAM.gov. </p>
+    <p> You are receiving this email because you are an Administrator  for this entity in SAM.gov.</p>
+    <p> A Work in Progress Registration is a registration update that has been started, but not submitted. Entity Administrators or Data Entry users with your organization can view, edit, submit, or delete it.</p>
+    <p> Work in Progress Registrations are held in SAM.gov for up to 90 days. If you do not access or submit them within the 90-day timeframe, the system will remove them. The system will not remove your existing registration.</p>
+    <p> If you have questions, please see this <a href="https://www.fsd.gov/gsafsd_sp?id=kb_article_view&amp;sysparm_article=KB0016369"> Federal Service Desk article</a>, or review additional resources <a href="https://fsd.gov/fsd-gov/home.do">here. </a></p></div>
+    <p><em> Do not reply to this auto-generated email.</em></p><div><p>This email was sent from SAM.gov</p></div>
+------=_Part_280003_1905269343.1745103868110--
+
+------=_Part_280002_763076313.1745103868110--

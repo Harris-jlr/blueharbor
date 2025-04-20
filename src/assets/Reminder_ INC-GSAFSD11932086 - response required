@@ -1,0 +1,143 @@
+Received: from SN7PR04CA0202.namprd04.prod.outlook.com (2603:10b6:806:126::27)
+ by BY1P222MB1294.NAMP222.PROD.OUTLOOK.COM (2603:10b6:a03:4b2::21) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.8632.32; Tue, 15 Apr
+ 2025 05:03:10 +0000
+Received: from SN1PEPF00036F41.namprd05.prod.outlook.com
+ (2603:10b6:806:126:cafe::43) by SN7PR04CA0202.outlook.office365.com
+ (2603:10b6:806:126::27) with Microsoft SMTP Server (version=TLS1_3,
+ cipher=TLS_AES_256_GCM_SHA384) id 15.20.8632.36 via Frontend Transport; Tue,
+ 15 Apr 2025 05:03:09 +0000
+Authentication-Results: spf=pass (sender IP is 74.208.4.194)
+ smtp.mailfrom=bluelinedesign.org; dkim=none (message not signed)
+ header.d=none;dmarc=fail action=oreject header.from=gsa.gov;compauth=fail
+ reason=000
+Received-SPF: Pass (protection.outlook.com: domain of bluelinedesign.org
+ designates 74.208.4.194 as permitted sender) receiver=protection.outlook.com;
+ client-ip=74.208.4.194; helo=mout.perfora.net; pr=C
+Received: from mout.perfora.net (74.208.4.194) by
+ SN1PEPF00036F41.mail.protection.outlook.com (10.167.248.25) with Microsoft
+ SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384) id 15.20.8655.12
+ via Frontend Transport; Tue, 15 Apr 2025 05:03:09 +0000
+UI-Loop: V01:Bz7jILM+Sxc=:Yfz1+7xYIGomXcR6hpIJZeQu8qKAk9Ks9h+ck9B7MFo=
+Received: from outbound01.servicenowservices.com ([149.96.192.2]) by
+ mx.perfora.net (mxeueus003 [74.208.5.3]) with ESMTPS (Nemesis) id
+ 1MrgYS-1tGuIm2knk-00oZpa; Tue, 15 Apr 2025 07:03:05 +0200
+Received: from app131153.hef201.service-now.com (unknown [10.249.31.169])
+	by outbound01.servicenowservices.com (Postfix) with ESMTP id 806A860000AC
+	for <jharris@bluelinedesign.org>; Mon, 14 Apr 2025 22:03:03 -0700 (PDT)
+DKIM-Filter: OpenDKIM Filter v2.11.0 outbound01.servicenowservices.com 806A860000AC
+Date: Mon, 14 Apr 2025 22:03:03 -0700
+From: General Services Administration Federal <fsdsupport@gsa.gov>
+Reply-To: General Services Administration Federal <fsdsupport@gsa.gov>
+To: <jharris@bluelinedesign.org>
+Message-ID: <1915805681.5080.1744693383514@app131153.hef201.service-now.com>
+Subject: Reminder: INC-GSAFSD11932086 - response required
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+X-ServiceNow-Source: Notification-7f725f491b0d64104002ec21f54bcbcf
+List-Unsubscribe: <mailto:gditshared@servicenowservices.com?subject=Unsubscribe+from+%22GSA+-+Email+Reminder+for+Incidents+On+Hold%22&body=Sending+this+email+with+the+predefined+content+in+the+subject+and+body+will+unsubscribe+you+from+the+notification+%22GSA+-+Email+Reminder+for+Incidents+On+Hold%22.+%0D%0A%0D%0AUnsubscribe%3A%7B%22id%22%3A%227f725f491b0d64104002ec21f54bcbcf%22%2C%22token%22%3A%22c797e62132%22%7D>
+X-ServiceNow-SysEmail-Version: 2
+Precedence: bulk
+Auto-Submitted: auto-generated
+X-ServiceNow-Generated: true
+X-Spam-Flag: NO
+UI-OutboundReport: notjunk:1;M01:P0:3tAhWJHoXl8=;Med/Sf21to5a6GoZlarnXeXOLfP
+ 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
+Return-Path: jharris@bluelinedesign.org
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 6f3f6875-abb3-4c63-8165-7953c0b3ce42:0
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: SN1PEPF00036F41:EE_|BY1P222MB1294:EE_
+X-MS-Office365-Filtering-Correlation-Id: 355d81d1-b9b1-4308-0244-08dd7bdad0e7
+X-Forefront-Antispam-Report: CIP:74.208.4.194;CTRY:US;LANG:en;SCL:9;SRV:;IPV:NLI;SFV:SPM;H:mout.perfora.net;PTR:mout.perfora.net;CAT:SPOOF;SFS:(13230040)(12012899012)(5062899012)(2092899012)(3072899012)(41022699024)(4022899009)(10800299015)(8096899003);DIR:INB;
+X-Microsoft-Antispam: BCL:0;ARA:13230040|12012899012|5062899012|2092899012|3072899012|41022699024|4022899009|10800299015|8096899003;
+X-Microsoft-Antispam-Message-Info: =?us-ascii?Q?lzXZKiAkYPMROuVrPwDiHQNLl9EdIPZqi43qVcGPlVO6XzTZRaDFp5itkt7t?=
+ =?us-ascii?Q?HCgqVun+hOhW7IVGNhsSpsLGMhVQ4etb4PgOsMtabUpcOfHs6nYdv7fhSAav?=
+ =?us-ascii?Q?XjdYzYKApSHaamza5P8ota0vPhUNwwzyhgezZUWlv+IqEporMg7Sbzxz9jh1?=
+ =?us-ascii?Q?L7Kn3wuNQLf6lKAp9ChVRIe0pZpnrfz/00Lxm1g/XRK8wTwSnSmYrmZDoEpw?=
+ =?us-ascii?Q?s+c/8jWOHynLHzWB7cIQpA0jKE3LZI9azinlibDkMLKQuyFDM2ySHpIpU87Y?=
+ =?us-ascii?Q?uliTYlugZmq6lPV4fkUeuWO17QVBLbkvQNMqJOxZkCh5LijAiKgUAvzvHAhF?=
+ =?us-ascii?Q?I7N2CY5IRzROkrhEEbxOGTWEVgvA1eLVzEuId103BfC2D2zDOBsuZCkm5RNv?=
+ =?us-ascii?Q?YG9WLS4UsXSIzqupC6e0cxxHS0Kq1VMreiVuDhntQcT/cloe9VvYIzf/P8Jn?=
+ =?us-ascii?Q?uhngr94dfxtWMsKoheKUG6TmqdjRV+cPnFDiW4UAekJmRCIiS8CWeUoG+DQE?=
+ =?us-ascii?Q?I4A7hDsYXrJHd4UcXuD0L3AkZ2L7JkXM16Fn8XNEoOTOBfZm7nryLMix4UI+?=
+ =?us-ascii?Q?pteZMPLCkN2riU1U05+uU8yYwzLHUqcMnYzceib7pqW0LsNWGhrIKUSSsmtM?=
+ =?us-ascii?Q?jmSbDK5uXQ6yzABUbVBj6WUXS2FEENEhzLCfAfcKCp9p5/PSpmDimDB/47RK?=
+ =?us-ascii?Q?tA26OTlTQLMEBzddYlH9dBw0cRXnMdt8PPRfeRAsN0m+ZjHuvmcLJje6fXTK?=
+ =?us-ascii?Q?L1r2QvtAd65Sro9qKEUGkzvMAWnQAHt5Y6o/H7+liiBwk19MHdNxSv+cQ2Hf?=
+ =?us-ascii?Q?Jm4UtbQ6TTi/axLg8SkubcVw8Yp/uBAwaGACQ/WUqDsOGWdb3xqk8tHT2Okj?=
+ =?us-ascii?Q?LpG26nwByWLj85dmOtFmZrf5WKvLDo5HKTXyDhjrne++mNP5yYEyfduQUGi7?=
+ =?us-ascii?Q?bxrF3lyWsCckD1kT6zsAzB6+qIiWXXjG/5EteDYoKufJPZaOuk67Cja7GrxI?=
+ =?us-ascii?Q?uptcD2ILMGctPLFoekrKMnD8Ayix2QCdtiimOT+gmBZyTaHXE15TlS2ncOS7?=
+ =?us-ascii?Q?6pgJ1iax3DEwR3L9IWOIOm3mJLnkHBWpQ1nFwbIkLfgFTQPV3L+diG0/VoYZ?=
+ =?us-ascii?Q?rxujcUQRZIg1Q84nFMPJ/nOOdHrgeL7+mPumwT+yzlbMaxKMGC6tD1FhsQwK?=
+ =?us-ascii?Q?dXU0BVuHzycOY03nMYjhD5LDVnd1X0O7k5+5OY+CRRjDEXnxE9oyrsPIK2xC?=
+ =?us-ascii?Q?flaOgRVgWI8YZ7SZONSuIE3xmOFbg+JAwKNdyZ1jB+uyC76o9NB/MUnQ5+zX?=
+ =?us-ascii?Q?CjSE6gVG9YSmqcj1OyABMmpu54RvThtcedjJtoBdDpnVJ04y+07YnWQi/Z7q?=
+ =?us-ascii?Q?TbwJRVLeIl1e/fGmyuZBeab/c5iIzwYEJ1GLQPTX22jlpYIKd1TbzF/+Xobd?=
+ =?us-ascii?Q?hHcKlk5wJMQ3LfIXEC+sKduDmlKlJ8GytW2gaW0tO9MDnPE7Xe4pEHEdU7es?=
+ =?us-ascii?Q?fbJY37i8BcrlDDbbomUsgAB2GO8noYEXKC/vQ5EAk8exYeUjlWs4zhEL7+A2?=
+ =?us-ascii?Q?GAxkC7YRYddDkdcK3VREaaSLWPHgRTXnxVglj7e0LFEiIunjMlh91YUgStBr?=
+ =?us-ascii?Q?dxaF91HGt/vjOas+H+/6I3HRCoRrFK580vK/T4l936Ajd/i4Zv3PHhyS4r5G?=
+ =?us-ascii?Q?Zqt7vnfpm4hIzTuw0gxWenKJjX5b6JRHTclvx+WaWuVrzyhPFhsXqtlDv/py?=
+ =?us-ascii?Q?D7hmhwxIbzzs2//jFXzUweuv9ElcUIJA5eHI9UO2YWka52/A5x1bvN7ogffA?=
+ =?us-ascii?Q?D+TM6GoO2szZlUnCgFcg6DIt3BGPqiY/GEYZEBRYPuI5Opny9g4Ne0ClpXRr?=
+ =?us-ascii?Q?IdYI3p5wFSjR8jrHIxzNasWPx/k+arvVx4RozoOQGjOq39EkDR4QS/jjCXmg?=
+ =?us-ascii?Q?OggD4ubQJxjbkVKhOwbcz6MMsENv41ETridK++7Lm1+KPYyMsPTW9pOjLWDd?=
+ =?us-ascii?Q?tq2eudRxTcp1CORBUUdlE5/+xtpQ+7iwfzgSRyy+t6Wf7UlKV967jPScI508?=
+ =?us-ascii?Q?AZ3iN8dLpVa30nTitLCfJr7Xbd7jo23mxoAZpsPbZXTnev+vjV/K2c0Jd5xQ?=
+ =?us-ascii?Q?2aqWqDJtO+dGfBlFzdva6guExs6b+xhQGtyukrWGxmp2Rj5LVaA1c1UVaAbx?=
+ =?us-ascii?Q?BrwMJh7zvQKm82HNtH72gnjpJXOhILHco02vmEZ/Z8BRlWywaogaA0ij8kj5?=
+ =?us-ascii?Q?2f7iCtuHnncOT2pdhQTFPBj6gXkveBzhePaQ/TiNU4vpOy5oF2Oj8ZCxpdv2?=
+ =?us-ascii?Q?gZETOQp96os4wvPaMLKkASgbyDGDVS+Udp8zhGSRYc3CaTo3ebRytBfiAuyO?=
+ =?us-ascii?Q?uu3bY8L9N30+J3an3No+h3Vl4SN2SiX9npayC0rITsRzlpjAgZErum6WTj3E?=
+ =?us-ascii?Q?GGviP8RVYkFThal7VO37Do3Ht7XuVTN2uW/LKgsOaWyhp1ggvsGTYR0Cwe/V?=
+ =?us-ascii?Q?A9bXWnCRIkcCeCWgrqCimU6vz3smjj8bGmH0zHVALyb/1SVJny4bQ7n5jigC?=
+ =?us-ascii?Q?VnZIXWvhH0n+zuPABw0a0IpxhX95McA8u8xjMlDgpiRmv9XwweYJ+aeADVzO?=
+ =?us-ascii?Q?S8ZtEgIOFz5pcyy3z1MKa06n+HRCQUnmrg102nV1YFgCKWLcCQtUUQMzDbsl?=
+ =?us-ascii?Q?fi1lNg=3D=3D?=
+MIME-Version: 1.0
+
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head><body><div><strong><em>This is an official message sent on behalf of the U.S. General Services Administration's Federal Service Desk (FSD) which provides free help for SAM.gov, FPDS.gov, eSRS.gov, and FSRS.gov</em></strong></div>
+<p><span style="font-family: helvetica; color: #333333;"></span></p>
+<p><span style="font-family: helvetica; color: #333333;">Email User &nbsp;</span></p>
+<p><span style="font-family: helvetica; color: #333333;">INC-GSAFSD11932086 &nbsp;Entity Not Found Reference Number: fc809683-06e1-417f-8b74-1ce5bf240fd3 is Pending Customer until requested information has been provided. This incident will be resolved on &nbsp;2025-04-15 17:12:02 if an update is not received.</span></p>
+<div>
+<p><span style="font-family: helvetica;"></span></p><p><font size="3" color="#808080" face="helvetica">You can view all the details of the incident by following the link below:</font></p><font face="helvetica"><a href="https://www.fsd.gov/gsafsd_sp?id=ticket&amp;table=u_incident_gsafsd&amp;sys_id=7b7e49b547f0629492efd821336d43da" style="background-color: #278efc;border: 1px solid #0368d4;color: #ffffff;font-size: 16px;font-family: Helvetica, Arial, sans-serif;text-decoration: none; border-radius: 3px;-webkit-border-radius: 3px;-moz-border-radius: 3px;display: inline-block;padding: 5px;">Take me to the Incident</a></font><br><br><p><font size="3" color="#808080" face="helvetica">You will be required to log in to FSD.gov to view the status of your tickets.</font></p><p><font size="3" color="#808080" face="helvetica"><font size="3" color="#808080" face="helvetica">Thank you.</font></font></p><p></p><font size="3" color="#808080" face="helvetica">
+<p>Don't lose access to your SAM.gov registration! Make sure you have at least two Entity Administrators at all times! <a href="https://www.fsd.gov/gsafsd_sp?id=kb_article_view&amp;sysparm_article=KB0036075" target="_blank" rel="noopener" data-saferedirecturl="https://www.google.com/url?q=https://www.fsd.gov/gsafsd_sp?id%3Dkb_article_view%26sysparm_article%3DKB0036075&amp;source=gmail&amp;ust=1721478115526000&amp;usg=AOvVaw3-84yOL3SkUb8j8rDJIbqn">Invite others</a> to help manage your registration.</p>
+<p>DO NOT attach documents containing personally identifiable information, controlled unclassified information, or other sensitive information to your FSD ticket or in reply to this email. Submit all entity validation documentation from your Entity Workspace in SAM.gov. <a href="https://www.fsd.gov/gsafsd_sp?id=kb_article_view&amp;sysparm_article=KB0057690" target="_blank" rel="noopener" data-saferedirecturl="https://www.google.com/url?q=https://www.fsd.gov/gsafsd_sp?id%3Dkb_article_view%26sysparm_article%3DKB0057690&amp;source=gmail&amp;ust=1721478115526000&amp;usg=AOvVaw0NfTTuRnkkOCZWZxkLrXgq">Learn how to add documentation</a>&nbsp;to your entity validation case.</p>
+</font></div><div>&nbsp;</div><div style="display:inline">Ref:MSGPROD63921890_08h8mP42LdM2WG4</div></body></html>

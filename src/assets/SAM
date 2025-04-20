@@ -1,0 +1,74 @@
+X-Originating-IP: [74.208.4.197]
+Received: from mout.perfora.net (mout.perfora.net [74.208.4.197])
+	by flpd574.prodigy.net (Inbound 8.15.2/8.15.2) with ESMTPS id 53JMYx6e016397
+	(version=TLSv1.2 cipher=AES256-GCM-SHA384 bits=256 verify=NO)
+	for <jreustle@att.net>; Sat, 19 Apr 2025 15:35:01 -0700
+UI-Loop: V01:ob+iUDvmpcE=:jmvVxN3lMthwdlvkyGVdyG8cd5gNrMgtm5kmaRKVv5Q=
+Received: from sam.gov ([34.233.184.14]) by mx.perfora.net (mxeueus012
+ [74.208.5.21]) with ESMTPS (Nemesis) id 1MMHAg-1uNNx92oVC-00TCYp; Sun, 20 Apr
+ 2025 00:34:58 +0200
+Received: from 266a56021a3d (unknown [10.177.48.198])
+	by sam.gov (Postfix) with ESMTP id 0B8CB182B917
+	for <jharris@bluelinedesign.org>; Sat, 19 Apr 2025 18:34:57 -0400 (EDT)
+Date: Sat, 19 Apr 2025 18:34:57 -0400
+From: <donotreply@sam.gov>
+To: <jharris@bluelinedesign.org>
+Message-ID: <537805332.283084.1745102097046@266a56021a3d>
+Subject: SAM.gov | You have received a Unique Entity ID for BLUELINE DESIGN,
+ LLC
+Content-Type: multipart/mixed;
+	boundary="----=_Part_283082_825765901.1745102097039"
+X-Spam-Flag: NO
+UI-OutboundReport: notjunk:1;M01:P0:1c8ytdpAgT4=;iXxFq07906YJyWg9Mo4JvDM4j57
+ 8W/zCcPyxf9VMKVT9jL3FCsEzzIEIeJguBKNmffn3SGURw1Y3Bmn0vmPA7IVehvASMRH69Jrj
+ KUhRTKsBv89sCl3xOKdsPzMza6mzxWkJnQWzot1MsaOW0BKvYu9VNRt2WE6IBtg5UbXAOC+tj
+ 5iSQJ0L1TBvA0PKg1960zW6Oi8jt1QJ9f6uglRjzKH+ioPP+LX4+dVA7V3Kh3hlmSRO9IX9y9
+ 5SPNOjKI1Izx4MQsfYkElkg6QeuerogF2MEH/6ck53rPjNfui9prJISOyJ8pmuwU865ayepU3
+ ePyyv/X/G3nuai96QIUI1jXum9iMpBttl+md3xJphqRS7ZJUSxwgokV6mvGszbPdLcANQnrqa
+ Ex/wYr1LrtGlQ2curfU4QP1wCKqnJghBXZKVqmSL8PCQKKdfXC3i2igo9PSblYSFvtGnO+ZRd
+ ZGhNriq+qZmEpVSpye9fc8CwE6AhVxq3jqWnj9z8cm7F8AKZRCsuYC26HI25+nSyIcfVjEV3L
+ j5MPGKuBFP3I2pqXtOtoHXu/ovYcMrX061NTEDNidXoaSEVhWscrTr6AmNYYXi5n7m+3/aaPr
+ 6Tqp5ZFLLfS0jgCxxYxJFWbKTEW2LSl9u4vRR7S8NMCyJY1EfcpKCHx+IisP0dWNX/4JoyhG6
+ RInZh2llCJ7z89Z9lZF5u3o6NajXp1zav+E3oJtMc7pi6MtPrvseOCHs4Vnh+Mb5dj5J26E9h
+ h0IScVwqexuKlTF5+iYP3BvikZMvSTLCB50HklEGBAnoeKFR7Jj2adlVd7zijKywWujpQWPXA
+ xSWOUJjTXNUXvdpG7/h4rHslQhaHm5zd4rB0KuqmFztPB5Ysx4rcTs1viYTjA+72p30k1yVU2
+ d1qlOYXHJVKmhs1Qkr+Y9QqwIFoDEgxNYuK2VZ6jFz4+QcOiEXa+vtiG4M3LrfXKdcWgnZAOI
+ Sp1oWQWv7f4ngvIKZLBVT6MO4rSZV2aFSBpi3TDfVta27L06/DVOTbmbI8x26DbKXb+lt+HSh
+ eEUPUVra5u1QP95R4n0H9NyW/Xe03bDpVZU0ZZ2x27/FymLK1DKAkWMVPIsKClL/UVN4Khndf
+ u3OXuj1NZZuvh3H2c91XiZ4vISRudjtZ75R+50jeLoOZfrn9kkz+BoXFDDDR36Npyvq02GHEv
+ 1cxJcEij9lTImjE9KEDX0rsIWuLWwnu9OxROkqlp8p6VYLH0uNipwwap+xxlmaqBXsgK5rvD7
+ d2mTyYbW5iMyn/pEUw7DPEwK/VJPTC8ENTbwY9LONf1XTf7aLr9vsUOg91KKcFW3LJZTFY9AG
+ n7p3nXIYFgaqOLrcJXYakCtvOPPBGsnRDyAxIV8BHtOw4OJoHKcl5n2PyD3cXmgdrGXHLfAtx
+ uVU23deLRRYZlgzb7gY9RjevMHVoqkeJ9M4bWbp+i/HN9ZMsgPSk7QdUfYcXB08QI/dM9yA3Q
+ 1EU0DuKLu/yerrwwmRd6eHR9lJW6drMrQtOLf2aRvjEjYajiA0e7hPNYo7twUux9/4TV+NAuf
+ WAw+xfE6ORKsvZWIAveVGbwP052hGgUP0gKwvCllbQA6f4NheZBGFGF5q1mbPBdVPTuTnsLzt
+ DazScONHgLv6zEH7kRvXy0wedZArSddHOi5heUm6S+sWVBI//lKETAlJsgrSxja8jAUiB+hn5
+ soseZ1jrNqUH84DwQt90c64vDAvnmXAaLmFoiVWgeqRkpAXv8PLJv8K6HMGAnhde7tzwEvvKG
+ fB443vKEublbsmv3P8nnNr7o0AsCVfgHX540SYRluahtvxF5pyn1y6cHcN+Rfd15nxlAwAO05
+ vunwFhgduTeOV4cZy6pDgsWkfDR4yfnzpE8O6TDOBn5970TDSt9MHTxNuA6JJkqHAVoyRgrFa
+ fSYjrTN6QFeboYwh0E0LDiR3XWWqOVbZ7bjEaaotOkBZ15V9GF7ixMRLSPtn1ywspKO/eDtK4
+ o0365ghvHsy/0nkWJX7v4Rv/HUQDCJPyfji1enflX/DHu48cdYVdqkNIOhL/wW7grOW/Lb/IY
+ MjnDiweLgznWudU2ONEFR9Di/p9rWzNT0cI1YxKMSxFLFHLFHh/b3HYfFbfGK4zUoykSd6PPS
+ QNcPpI2rdzWeyWYhPUggJ+KOhu4v7xAjYhKJvkmEIiWOqaH2cZ0ke7ZADls9diQk6Mn6BdpHP
+ lTe1jaju7sgODxcL0QKqHUvUihcW6gdfDE0IfhDiSwj39o8pxQNrAs4LdVQlucOlJfmRt4qDJ
+ C4c0TUGHLSjB2AeIP2uJUdAq09nLMEEYsIKrMIkphA7cJLDAKVybd4jl/jl5l9ZF8PPzqT3iz
+ yxwBxlBo3kiCySZ6pi/8KyUKjgadpObjh5IT0xHcZ2Q/G7JExDaFBtPWCv1bMfDEVGETpVBhp
+ WNluP4IrdY3eCRmGhzu/5u6sy2VEAUYq9O82QIUig+BbkowKVoXeDeM5hTTN6psJ9qHokzO9g
+ peQPF4oBbIwN7M9LT0pP4y9d58ylvKWifBTTjj59/EbCWWC7Qe8pq8SwtPpt7PEGA8Re6ZZ1L
+ 7NSvJRnvydCn3HZhBCmTGZNf/SgXYy1E6m34f8aHFqAWiXT+3YwQWCSpJMDH9+9rbO9vuUmSJ
+ uAaGtnWSwK2LMjP4N5R8CHg+ocVRhSyyOIlFnNolIVXDacNGoM9n/sm4rYLTKQpA9D2nq05tZ
+ Y1/z7bNGdVkG+wGapz53eDtH
+MIME-Version: 1.0
+
+------=_Part_283082_825765901.1745102097039
+Content-Type: multipart/related;
+	boundary="----=_Part_283083_708792912.1745102097039"
+
+------=_Part_283083_708792912.1745102097039
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><div><p>Judy Harris,</p><p>You have successfully received a Unique Entity ID for:</p><p><b>BLUELINE DESIGN, LLC<br>UNIQUE ENTITY ID: GXUVGWVD9BR3</b></p><p>You have been assigned the UEI Data Entry Role in the Entity Registration domain with this entity. You can use the Unique Entity ID to identify your entity to federal government agencies or to register your entity on SAM.gov.</p><p>Your Unique Entity ID does not expire and does not need to be renewed. You can update your entity information by signing in to SAM.gov and going to your Entity Management Workspace.</p><p>If you have additional questions, please go to the <a href="https://fsd.gov">Federal Service Desk</a>.</p></div><p><em>Do not reply to this auto-generated email.</em></p><div><p>This email was sent from SAM.gov</p></div>
+------=_Part_283083_708792912.1745102097039--
+
+------=_Part_283082_825765901.1745102097039--
