@@ -43,9 +43,12 @@
 
      
       <div class="mt-8 text-center py-12 mb-12">
-          <a href="/contact" target="_blank" class="bg-sky-600 hover:bg-sky-700 text-white py-2 px-12 rounded-full text-lg font-semibold transition shadow-lg">
-            Contact Us to Schedule an Appointment
-          </a>
+         <a
+      :href="mailtoLink"
+      class="inline-block bg-blue-800 hover:bg-blue-500 text-white font-semibold px-5 py-2 rounded-full transition"
+    >
+      Contact Us to Schedule an Appointment
+    </a>
         </div>
     </div>
   </div>
@@ -59,29 +62,20 @@ const mailtoLink = 'mailto:blueharborpoolservices@gmail.com?subject=Blue Harbor 
 
 const cards = ref([ 
   {
-    title: 'Swab the Deck',
-    description:
-      'This is a deep cleaning of your pool deck with our carefully adjusted pressure washer to give you the best possible clean.',
-    cta: 'Schedule Now',
-    link: '/Schedule',
-    bg: 'bg-blue-50',
-    img: sample, // replace with your asset path
-  },
-  {
     title: 'Weekly & Bi-Weekly Cleaning',
     description: 'Regular cleaning schedules to keep your pool consistently sparkling and swim-ready.',
     cta: 'Sign me Up',
     link: '/Schedule',
     bg: 'bg-blue-50',
-    img: sample,
+    img: 'src/assets/services/IMG_1712.jpg'
   },
 {
     title: 'Filter Maintenance',
     description: 'Routine checks and replacements to ensure optimal water circulation and clarity.',
     cta: 'Yes, Please',
-    link: '/Schedule',
+    link:  '/Schedule',
     bg: 'bg-blue-50',
-    img: sample,
+    img: 'src/assets/services/filter.png'
 },
 {
     title: 'Salt & Chlorine Balancing',
@@ -89,7 +83,7 @@ const cards = ref([
     cta: 'I need this!',
     link: '/Schedule',
     bg: 'bg-blue-50',
-    img: sample,
+    img: 'src/assets/th.jpg'
 },
 {
     title: 'Green Pool Recovery',
@@ -99,13 +93,22 @@ const cards = ref([
     bg: 'bg-blue-50',
     img: sample,
   },
+  {
+    title: 'Swab the Deck',
+    description:
+      'This is a deep cleaning of your pool deck with our carefully adjusted pressure washer to give you the best possible clean.',
+    cta: 'Schedule Now',
+    link: '/Schedule',
+    bg: 'bg-blue-50',
+    img: 'src/assets/services/IMG_1814.jpg'
+  },
     {
     title: 'Seasonal Startup & Closing',
     description: 'Professional pool opening and closing services to protect your investment year-round.',
     cta: 'Lets Go!',
     link: '/Schedule',
     bg: 'bg-blue-50',
-    img: sample,
+    img: 'src/assets/services/testing.jpg'
   },
 ])
 </script>
