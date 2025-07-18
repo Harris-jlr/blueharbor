@@ -56,7 +56,12 @@
 
 <script setup>
 import { ref } from 'vue'
+import cleaning from '../assets/services/IMG_1712.jpg'
+import filter from '../assets/services/filter.png'
+import balancing from '../assets/services/th.jpg'
 import sample from '../assets/services/oasis.webp'
+import swabbing from '../assets/services/IMG_1814.jpg'
+import startup from '../assets/services/testing.jpg'
 
 const mailtoLink = 'mailto:blueharborpoolservices@gmail.com?subject=Blue Harbor Consultation Request&body=Hi, I’d like to schedule an appointment for pool services. Please get in touch with available times.';
 
@@ -67,7 +72,7 @@ const cards = ref([
     cta: 'Sign me Up',
     link: '/Schedule',
     bg: 'bg-blue-50',
-    img: 'src/assets/services/IMG_1712.jpg'
+    img: cleaning,
   },
 {
     title: 'Filter Maintenance',
@@ -75,7 +80,7 @@ const cards = ref([
     cta: 'Yes, Please',
     link:  '/Schedule',
     bg: 'bg-blue-50',
-    img: 'src/assets/services/filter.png'
+    img: filter,
 },
 {
     title: 'Salt & Chlorine Balancing',
@@ -83,7 +88,7 @@ const cards = ref([
     cta: 'I need this!',
     link: '/Schedule',
     bg: 'bg-blue-50',
-    img: 'src/assets/th.jpg'
+    img: balancing,
 },
 {
     title: 'Green Pool Recovery',
@@ -100,7 +105,7 @@ const cards = ref([
     cta: 'Schedule Now',
     link: '/Schedule',
     bg: 'bg-blue-50',
-    img: 'src/assets/services/IMG_1814.jpg'
+    img: swabbing,
   },
     {
     title: 'Seasonal Startup & Closing',
@@ -108,7 +113,7 @@ const cards = ref([
     cta: 'Lets Go!',
     link: '/Schedule',
     bg: 'bg-blue-50',
-    img: 'src/assets/services/testing.jpg'
+    img: startup,
   },
 ])
 </script>
