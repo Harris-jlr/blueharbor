@@ -43,16 +43,35 @@
           alt=""
           class="w-full h-60 object-cover"
         />
-        <div class="p-6">
-          <h2 class="text-xl font-bold text-blue-700 mb-3">{{ card.title }}</h2>
-          <p class="text-gray-700 mb-6">{{ card.description }}</p>
-          <router-link
-            :to="card.link"
-            class="inline-block bg-blue-600 hover:bg-blue-500 text-white font-semibold px-5 py-2 rounded-full transition"
-          >
-            {{ card.cta }}
-          </router-link>
-        </div>
+       <!-- Inside your card loop -->
+<div class="p-6">
+  <h2 class="text-xl font-bold text-blue-700 mb-3">{{ card.title }}</h2>
+  <p class="text-gray-700 mb-6">{{ card.description }}</p>
+
+  <div v-if="card.title === 'Schedule a Consultation'">
+    <a
+      :href="mailtoLink"
+      class="inline-block bg-blue-600 hover:bg-blue-500 text-white font-semibold px-5 py-2 rounded-full transition"
+    >
+      {{ card.cta }}
+    </a>
+  </div>
+
+  <form
+    v-else
+    action="https://www.paypal.com/ncp/payment/XU49B9C3A9EZY"
+    method="post"
+    target="_blank"
+    style="display:inline-grid;justify-items:center;align-content:start;gap:0.5rem;"
+  >
+    <input
+      class="pp-XU49B9C3A9EZY inline-block bg-blue-600 hover:bg-blue-500 text-white font-semibold px-5 py-2 rounded-full transition"
+      type="submit"
+      :value="card.cta"
+    />
+  </form>
+</div>
+
       </div>
     </section>
   </div>
@@ -68,13 +87,15 @@ import poolblue from '../assets/781370.webp'
 
 const mobileMenuOpen = ref(false)
 
+const mailtoLink = 'mailto:blueharborpoolservices@gmail.com?subject=Blue Harbor Consultation Request&body=Hi, I’d like to schedule a consultation about my pool services. Please get in touch with available times.';
+
 const cards = ref([
   {
     title: 'Schedule a Consultation',
     description:
       'Let’s talk about your pool needs. We’ll walk you through your options and get you on a maintenance plan that works for you.',
     cta: 'Book Now',
-    link: '/About',
+    link: '/Schedule',
     bg: 'bg-white',
     img: poolview, // replace with your asset path
   },
@@ -83,7 +104,7 @@ const cards = ref([
     description:
       'Safe, secure, and fast. Use our online portal to handle your payments anytime.',
     cta: 'Pay Now',
-    link: '/Schedule',
+    link: '',
     bg: 'bg-blue-50',
     img: poolblue, // replace with your asset path
   },

@@ -8,8 +8,8 @@
 
       <!-- Description & CTA -->
       <p class="text-center text-sky-700 max-w-3xl mx-auto mb-6 pb-6">
-        Discover our range of ozone therapy services designed to promote wellness, detoxification, and healing. 
-        Each service is carefully curated to enhance your overall health and vitality. Explore our offerings 
+        Discover our range of services designed to optimize your pool. 
+        Each service is carefully curated to enhance your pools health and quality. Explore our offerings 
         and schedule your appointment today. <a href="/history" class="text-sm/6 font-semibold text-sky-900">Learn more <span aria-hidden="true">→</span></a>
       </p>
 
@@ -50,6 +50,8 @@
 <script setup>
 import { ref } from 'vue'
 import sample from '../assets/services/oasis.webp'
+
+const mailtoLink = 'mailto:blueharborpoolservices@gmail.com?subject=Blue Harbor Consultation Request&body=Hi, I’d like to schedule an appointment for pool services. Please get in touch with available times.';
 
 const cards = ref([ 
   {
