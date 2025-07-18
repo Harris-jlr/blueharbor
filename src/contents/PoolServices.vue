@@ -14,7 +14,7 @@
       </p>
 
       <!-- Services Cards -->
-    <section class="max-w-6xl mx-auto mt-20 px-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-10">
+    <section class="max-w-6xl mx-auto mt-20 px-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-10">
       <div
         v-for="(card, index) in cards"
         :key="index"
