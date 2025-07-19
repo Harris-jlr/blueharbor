@@ -13,6 +13,7 @@
        <p class="text-sky-700 max-w-3xl mx-auto text-xl mb-6 pt-6">Isaac started out cleaning pools solo, earning the trust of his clients through consistent care and attention to detail. Ryan was working for a local pool company, but wanted more freedom to build real relationships and take pride in every job.</p>
        <p class="text-sky-700 max-w-3xl mx-auto text-xl mb-6 pb-6">They decided to team up and launch Blue Harbor, built on a shared commitment to honest work and dependable service. They believe good work speaks for itself—and they’ve got the tan lines to prove it.
       </p>
+      <p class="text-sky-700 max-w-3xl mx-auto text-xl ">Together, they’re building a business that feels more like a neighbor than a service.</p>
 
 
       <section class="text-center py-12 px-6">
