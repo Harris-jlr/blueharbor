@@ -1,6 +1,20 @@
 <template>
    <!-- NOTES FOR BOOKING APPOINTMENTS -->
    <div class="bg-white mt-10">
+     <!-- Title -->
+      <h2 class="text-center mb-6 pt-12 text-sky-700 font-bold text-4xl leading-10 tracking-wider">
+        About Blue Harbor
+      </h2>
+
+      <!-- Description & CTA -->
+      <h3 class=" text-sky-700 max-w-3xl mx-auto font-bold text-2xl">
+       Isaac and Ryan are good friends who really enjoy the work they do.
+       </h3>
+       <p class="text-sky-700 max-w-3xl mx-auto text-xl mb-6 pt-6">Isaac started out cleaning pools solo, earning the trust of his clients through consistent care and attention to detail. Ryan was working for a local pool company, but wanted more freedom to build real relationships and take pride in every job.</p>
+       <p class="text-sky-700 max-w-3xl mx-auto text-xl mb-6 pb-6">They decided to team up and launch Blue Harbor, built on a shared commitment to honest work and dependable service. They believe good work speaks for itself—and they’ve got the tan lines to prove it.
+      </p>
+
+
       <section class="text-center py-12 px-6">
        
         <!-- Testimonials -->
