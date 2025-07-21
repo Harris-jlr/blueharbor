@@ -44,17 +44,17 @@
   {
     title: 'Initial Consultation',
     description: 'Detox and rejuvenate with a powerful ozone sauna session.',
-    link: 'https://www.picktime.com/aa698a2e-9c81-42f6-a5fc-fcf18e55b991',
+    link: 'https://www.picktime.com/e5ad4a4f-7f89-42bc-bdc6-8514a339fa7d',
   },
   {
     title: 'Weekly Service',
     description: 'Recharge your body with Pulsed Electromagnetic Field therapy.',
-    link: 'https://www.picktime.com/aa698a2e-9c81-42f6-a5fc-fcf18e55b991',
+    link: 'https://www.picktime.com/e5ad4a4f-7f89-42bc-bdc6-8514a339fa7d',
   },
   {
     title: 'One-time Cleaning',
     description: 'A targeted approach for sinus and respiratory support.',
-    link: 'https://www.picktime.com/aa698a2e-9c81-42f6-a5fc-fcf18e55b991',
+    link: 'https://www.picktime.com/e5ad4a4f-7f89-42bc-bdc6-8514a339fa7d',
   },
 ]
 
