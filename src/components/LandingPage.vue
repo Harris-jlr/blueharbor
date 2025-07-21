@@ -22,8 +22,8 @@
              We deliver reliable care for all types of pools in both homes and businesses.  
             </p>
               <div class="mt-10 flex items-center justify-center gap-x-6">
-              <a href="/schedule" class="rounded-full bg-sky-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400">Get started</a>
-              <a href="/company" class="text-sm/6 font-semibold text-sky-600">Learn more <span aria-hidden="true">→</span></a>
+              <a href="/services" class="rounded-full bg-sky-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400">Get started</a>
+              <a href="/about" class="text-sm/6 font-semibold text-sky-600">Learn more <span aria-hidden="true">→</span></a>
             </div>
           </div>
           
