@@ -75,12 +75,12 @@
 
 const faqItems = [
   {
-    question: 'How long does a session last?',
-    answer: 'Most ozone therapy sessions last between 30–60 minutes, depending on the service.',
+    question: 'Are Consultations Free?',
+    answer: 'We charge a modest fee for consultations but we offer to apply the total amount to your first service.',
   },
   {
-    question: 'Is ozone therapy safe?',
-    answer: 'Yes! Ozone therapy is a well-researched, non-invasive treatment used worldwide for various health benefits.',
+    question: 'How often do I need to clean my Filters?',
+    answer: 'We recommend filters be sprayed clean every 4-6 weeks with complete Chemical cleans 1-2 times per year.',
   },
   {
     question: 'Types of Pools We Service',
