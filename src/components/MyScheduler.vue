@@ -4,7 +4,7 @@
       <section class="text-center py-16 px-6">
         <h1 class="text-4xl text-sky-800 font-bold">Book your Service</h1>
         <p class="mt-4 text-lg text-sky-800 max-w-3xl mx-auto">
-          Book one of our services today and start experiencing the benefits of a professionally cleaned pool.
+          Book one of our services today and start experiencing the benefits of a professionally cleaned pool.  We think your time is better Spent enjoying it.
         </p>
       </section>
   
