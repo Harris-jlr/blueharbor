@@ -60,7 +60,7 @@ const navigation = [
   { name: 'Our Services', href: '/services' },
   { name: 'News', href: '/news' },
   { name: 'Schedule Now', href: '/schedule' },
-  { name: 'Aboutus', href: '/About' },
+  { name: 'About us', href: '/About' },
 ]
 
 const mobileMenuOpen = ref(false)

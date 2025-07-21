@@ -4,7 +4,7 @@
       <section class="text-center py-16 px-6">
         <h1 class="text-4xl text-sky-800 font-bold">Book your Service</h1>
         <p class="mt-4 text-lg text-sky-800 max-w-3xl mx-auto">
-          Let O3Zone take you toward better health. Book one of our services today and start experiencing the benefits of PEMF and Ozone therapy.
+          Book one of our services today and start experiencing the benefits of a professionally cleaned pool.
         </p>
       </section>
   
