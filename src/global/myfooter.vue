@@ -6,10 +6,11 @@
       <div class="col-span-3 flex flex-col">
         <p>&copy; 2025 Blueline Design, LLC. All rights reserved.</p>
         <div class="mt-4 flex space-x-6">
-          <a href="https://www.facebook.com/OZONETherapy3" class="hover:text-white"><i class="fab fa-facebook fa-lg"></i></a>
-          <a href="https://x.com/MyO3zone" class="hover:text-white"><i class="fab fa-twitter fa-lg"></i></a>
-          <a href="https://www.instagram.com/myo3zone/" class="hover:text-white"><i class="fab fa-instagram fa-lg"></i></a>
-          <a href="https://www.linkedin.com/company/myo3zone/" class="hover:text-white"><i class="fab fa-linkedin fa-lg"></i></a>
+          <a href="" class="hover:text-white"><i class="fab fa-facebook fa-lg"></i></a>
+          <a href="" class="hover:text-white"><i class="fab fa-twitter fa-lg"></i></a>
+          <a href="https://www.instagram.com/blueharborpoolservices/" class="hover:text-white"><i class="fab fa-instagram fa-lg"></i></a>
+          <a href="" class="hover:text-white"><i class="fab fa-linkedin fa-lg"></i></a>
+          <a href="https://www.tiktok.com/@blueharbor_tx" class="hover:text-white"><i class="fab fa-tiktok fa-lg"></i></a>
         </div>
       </div>
 
